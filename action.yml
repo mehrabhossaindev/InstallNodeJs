@@ -3,6 +3,7 @@ runs:
   using: "composite"
   steps:
       - name: "Start build Vue Project"
+        shell: bash
         run: echo "Start build"
         
       - name: Checkout 
